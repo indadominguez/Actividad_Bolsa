@@ -11,7 +11,7 @@ Tu trabajo será construir la clase y sus operaciones para que, cuando más adel
 - un conjunto de tests automáticos, y
 - una pequeña aplicación/juego,
 - todo funcione correctamente sin tocar el código de tests ni el del juego.
-- 
+  
 ✅ Qué debe poder hacer la Bolsa
 
 Imagina una bolsa física:
@@ -27,12 +27,14 @@ Imagina una bolsa física:
 📦 Requisitos funcionales (bien concretos)
 
 1) Creación
-Debe ser posible:
+
+  Debe ser posible:
 - Crear una bolsa vacía.
 - Crear una bolsa ya cargada con elementos que te pasan al principio (por ejemplo una lista o un set).
   
 2) Operaciones básicas
-- Debe existir la posibilidad de:
+   
+Debe existir la posibilidad de:
 - meter un elemento.
 - meterTodos varios elementos.
 - sacar un elemento:
@@ -46,15 +48,16 @@ Debe ser posible:
 - mezclar: reordena internamente el contenido.
 - Después de mezclar, deben estar exactamente los mismos elementos.
 - No se puede perder nada ni inventarse elementos.
-- 
+  
 4) Operaciones “de reglas”
+  
 Estas operaciones no deben cambiar la bolsa original, sino devolver nuevas bolsas o estructuras nuevas.
 
 - filtrar: devuelve una nueva bolsa con los elementos que cumplan una condición.
 - transformar: devuelve una nueva bolsa con los elementos convertidos a otra cosa.
 - agruparPor: separa el contenido en grupos según una regla, devolviendo un mapa (clave → bolsa del grupo).
 - Cada elemento debe aparecer exactamente una vez en algún grupo.
-- 
+  
 5) Copiar a un destino externo
 - volcarEn: copia el contenido en una colección destino que te dan.
 - La bolsa no debe vaciarse.
